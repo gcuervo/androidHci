@@ -328,8 +328,8 @@ public class MainActivity extends ActionBarActivity {
                 break;*/
             case 2:
                 fragment = new Fm_2();
-                mDrawerTitle = "Grupo 2";
-                mTitle = "Hijo 1 Grupo 2";
+                mDrawerTitle = "Mujeres";
+                mTitle = "Ver Todo";
                 mDrawerExpandableList.clearChoices();
                 mDrawerExpandableList.setItemChecked(2, true);
                 //mDrawerExpandableList.setItemChecked(1, false);

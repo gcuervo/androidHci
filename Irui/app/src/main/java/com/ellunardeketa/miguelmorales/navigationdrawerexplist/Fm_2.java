@@ -20,6 +20,12 @@ public class Fm_2 extends Fragment {
 
         View rootView = inflater.inflate(R.layout.resultados_busqueda, container, false);
 
+        //Button button = (Button) findViewById(R.id.buttonFiltros);
+//        button.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                // Do something in response to button click
+//            }
+//        });
         return rootView;
     }
 }
