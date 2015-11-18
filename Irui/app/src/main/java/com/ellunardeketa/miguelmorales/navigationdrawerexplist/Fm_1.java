@@ -18,7 +18,7 @@ public class Fm_1 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fm_1, container, false);
+        View rootView = inflater.inflate(R.layout.inicio, container, false);
 
         return rootView;
     }
