@@ -1,13 +1,123 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Ordenar Por"
+        android:id="@+id/buttonOrden"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/buttonFiltros"
+        android:layout_toLeftOf="@+id/buttonFiltros" />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="Filtros"
+        android:id="@+id/buttonFiltros"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:id="@+id/prod1"
+        android:src="@drawable/fotoej"
+        android:layout_above="@+id/prodName2"
+        android:layout_alignLeft="@+id/prod3"
+        android:layout_alignStart="@+id/prod3" />
+
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:id="@+id/prod2"
+        android:src="@drawable/fotoej"
+        android:layout_below="@+id/buttonFiltros"
+        android:layout_alignLeft="@+id/prod4"
+        android:layout_alignStart="@+id/prod4" />
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:id="@+id/prod3"
+        android:src="@drawable/fotoej"
+        android:layout_marginTop="35dp"
+        android:layout_below="@+id/prod1"
+        android:layout_alignRight="@+id/buttonOrden"
+        android:layout_alignEnd="@+id/buttonOrden" />
+
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="250dp"
+        android:id="@+id/prod4"
+        android:src="@drawable/fotoej"
+        android:layout_alignTop="@+id/prod3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Fm 2"
-        android:id="@+id/textView"
-        android:layout_gravity="center_horizontal" />
-</LinearLayout>
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vestido Negro"
+        android:id="@+id/prodName1"
+        android:layout_below="@+id/prod1"
+        android:layout_alignLeft="@+id/prod1"
+        android:layout_alignStart="@+id/prod1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vestido Negro"
+        android:id="@+id/prodName2"
+        android:layout_below="@+id/prod2"
+        android:layout_alignRight="@+id/prod2"
+        android:layout_alignEnd="@+id/prod2"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vestido Negro"
+        android:id="@+id/prodName3"
+        android:layout_below="@+id/prod3"
+        android:layout_alignRight="@+id/prod3"
+        android:layout_alignEnd="@+id/prod3"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Vestido Negro"
+        android:id="@+id/prodName4"
+        android:layout_below="@+id/prod4"
+        android:layout_alignRight="@+id/prod4"
+        android:layout_alignEnd="@+id/prod4"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+
+</RelativeLayout>
+
+    </ScrollView>
