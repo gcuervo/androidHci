@@ -18,7 +18,7 @@ public class Fm_2 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.fm_2, container, false);
+        View rootView = inflater.inflate(R.layout.resultados_busqueda, container, false);
 
         return rootView;
     }

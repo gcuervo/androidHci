@@ -234,7 +234,7 @@ public class MainActivity extends ActionBarActivity {
         //hijos_grupo1.add("Hijo 2 de grupo 1");
 
         List<String> hijos_grupo2 = new ArrayList<String>();
-        hijos_grupo2.add("Vestidos");
+        hijos_grupo2.add("Ver Todo");
         hijos_grupo2.add("Remeras");
         hijos_grupo2.add("Accesorios");
 
